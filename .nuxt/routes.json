@@ -1,0 +1,37 @@
+[
+  {
+    "name": "agenda",
+    "path": "/agenda",
+    "component": "/home/luizgis/Documents/artgo/pages/agenda.vue",
+    "chunkName": "pages/agenda",
+    "_name": "_267bfaf9"
+  },
+  {
+    "name": "events",
+    "path": "/events",
+    "component": "/home/luizgis/Documents/artgo/pages/events.vue",
+    "chunkName": "pages/events",
+    "_name": "_78211cf4"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/luizgis/Documents/artgo/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_121360bd"
+  },
+  {
+    "name": "trombi",
+    "path": "/trombi",
+    "component": "/home/luizgis/Documents/artgo/pages/trombi.vue",
+    "chunkName": "pages/trombi",
+    "_name": "_7dccb590"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/luizgis/Documents/artgo/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_fcc41d16"
+  }
+]

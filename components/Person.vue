@@ -1,6 +1,6 @@
 <template>
     <div class="img-with-text">
-      <v-img
+      <v-img v-on:click="flipImage"
         contain
         :src="src"
         max-height="35vh"
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-
+  
     props: 
     {
         name: {
@@ -38,8 +38,15 @@ export default {
         },
         text: {
             type: String,
-            default: "Luiz est super cool"
+            default: "Luiz est une persone"
         }  
+    },
+
+    methods:
+    {
+      flipImage: function () {
+        
+      }
     }
 
 

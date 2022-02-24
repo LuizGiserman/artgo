@@ -1,4 +1,4 @@
-.teste
-{
-    color: blue
-}
+@font-face {
+    font-family: 'bdaargos';
+    src: url('~assets/fonts/bdaargos-regular.otf') format('truetype');
+  }

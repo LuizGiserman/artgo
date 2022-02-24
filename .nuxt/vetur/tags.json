@@ -1,0 +1,17 @@
+{
+  "FlipBox": {
+    "description": "Auto imported from components/FlipBox.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Person": {
+    "description": "Auto imported from components/Person.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from components/VuetifyLogo.vue"
+  }
+}
