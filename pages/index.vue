@@ -216,7 +216,7 @@ export default {
         gsap.to(".containerAnimate", {
           scrollTrigger: {
             trigger: ".containerAnimate",
-            start: "-30%",
+            start: "-35%",
             toggleActions: "play pause resume none",
             scrub: 1,
             pin: true
