@@ -14,11 +14,11 @@
     "_name": "_78211cf4"
   },
   {
-    "name": "inspire",
-    "path": "/inspire",
-    "component": "/home/luizgis/Documents/artgo/pages/inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_121360bd"
+    "name": "partenaires",
+    "path": "/partenaires",
+    "component": "/home/luizgis/Documents/artgo/pages/partenaires.vue",
+    "chunkName": "pages/partenaires",
+    "_name": "_4448f702"
   },
   {
     "name": "trombi",

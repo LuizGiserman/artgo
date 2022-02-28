@@ -6,7 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _267bfaf9 = () => interopDefault(import('../pages/agenda.vue' /* webpackChunkName: "pages/agenda" */))
 const _78211cf4 = () => interopDefault(import('../pages/events.vue' /* webpackChunkName: "pages/events" */))
-const _121360bd = () => interopDefault(import('../pages/inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _4448f702 = () => interopDefault(import('../pages/partenaires.vue' /* webpackChunkName: "pages/partenaires" */))
 const _7dccb590 = () => interopDefault(import('../pages/trombi.vue' /* webpackChunkName: "pages/trombi" */))
 const _fcc41d16 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -30,9 +30,9 @@ export const routerOptions = {
     component: _78211cf4,
     name: "events"
   }, {
-    path: "/inspire",
-    component: _121360bd,
-    name: "inspire"
+    path: "/partenaires",
+    component: _4448f702,
+    name: "partenaires"
   }, {
     path: "/trombi",
     component: _7dccb590,

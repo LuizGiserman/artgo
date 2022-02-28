@@ -1,37 +1,27 @@
 <template>
-    <div>
-        <v-container>
-            <v-row
-            justify="center"
-            allign="start"
-            >
-                <v-col>
-                    <h1 class="text-center">
-                        Retrouve notre planning d’events de la semaine !! On t’attend avec impatience !!
-                    </h1>
-                </v-col>
-            </v-row>
-            
-            <v-row
-            justify="center">
-                <v-col
-                justify="center"
-                cols="12"
-                align-self="center">
-                    <v-img
-                    contain
-                    src="/prato.jpg"
-                    width="720"
-                    height="480"
-                    >
-                    </v-img>
-                </v-col>
-            </v-row>
+<div>
 
-        </v-container>
-        <footer>
-        </footer>
-    </div>
+  <h1 class="text-center">
+    Retrouve notre planning d’events de la semaine !! On t’attend avec impatience !!
+  </h1>
+
+
+
+  <div class="containerAnimate">
+    <v-img
+          style="
+            position: absolute;
+          "
+          contain
+          src="/prato.jpg"
+          >
+    </v-img>
+  </div>
+
+</div>
+
+
+
 </template>
 
 <script>
@@ -49,5 +39,13 @@ h1 {
   text-decoration: none;
   font-size: 200%;
   
+}
+
+.containerAnimate{
+  height: 60vh;
+  position: relative;
+  overflow: hidden; 
+  display: flex;
+  margin-top: 3%;
 }
 </style>

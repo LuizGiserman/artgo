@@ -216,12 +216,12 @@ export default {
         },
         {
           icon: 'mdi-calendar',
-          title: 'Agenda',
-          to: '/agenda'
+          title: 'Events',
+          to: '/events'
         },
         {
           icon: 'mdi-account-multiple',
-          title: 'Notre equipe',
+          title: 'Trombi',
           to: '/trombi'
         }
       ],
