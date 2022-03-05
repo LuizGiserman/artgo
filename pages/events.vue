@@ -1,13 +1,15 @@
 <template>
 <div>
-
-  <h1 class="text-center">
-    Retrouve notre planning d’events de la semaine !
-  </h1>
-  <h1 class="text-center">
-    On t’attend avec impatience !
-  </h1>
-
+  <v-card
+    class="mx-auto"
+    style="background: #FEEDCF;">
+    <h1 class="text-center text-md-h4 text-h5">
+      Retrouve notre planning d’events de la semaine !
+    </h1>
+    <h1 class="text-center text-md-h4 text-h5">
+      On t’attend avec impatience !
+    </h1>
+  </v-card>
 
 
   <div class="containerAnimate">

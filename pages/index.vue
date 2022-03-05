@@ -1,111 +1,14 @@
 <template>
-  <!-- <v-container
-  fill-height
-  fill-width>
-
-    <v-row
-    align="center"
-    justify="center">
-      <v-col>
-        <h1 class="text-center">
-          Liste BDA Centrale Lille 2022 - 2023
-        </h1>
-      </v-col>
-    </v-row>
-
-    <v-row
-    align="center"
-    style="position: relative;">
-      <v-col
-      justify="center"
-      style="position: absolute;
-             top: 50%">
-        <v-img
-        contain
-        src="/prato.jpg"
-        width="720"
-        height="480"
-        >
-        </v-img>
-      </v-col>
-
-    </v-row>
-
-    <v-row
-    align="center"
-    style="position: relative;">
-      <v-col
-      allign="center"
-      justify="center">
-
-        <v-btn elevation="2"
-              x-large
-              style="background: #EAB824;
-                     color: black;
-                     font-family: 'Comfortaa', cursive;
-                     allign: center;">
-          Continue
-        </v-btn>
-      </v-col>
-    </v-row>
-
-    <v-row
-    align="center"
-    style="position: relative;">
-      <v-col
-      justify="center"
-      style="position: absolute;
-             top: 50%">
-        <iframe width="1080" height="720" src="https://www.youtube.com/embed/LNIPk4fMsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-      </v-col>
-    </v-row>
-
-    <v-row
-    align="center"
-    style="position: relative;">
-      <v-col
-      allign="center"
-      justify="center">
-
-        <v-btn elevation="2"
-              x-large
-              style="background: #EAB824;
-                     color: black;
-                     font-family: 'Comfortaa', cursive;
-                     allign: center;">
-          Continue
-        </v-btn>
-      </v-col>
-    </v-row>
-
-
-    <v-row
-    align="center"
-    style="position: relative;">
-      <v-col
-      justify="center"
-      style="position: absolute;
-             top: 50%">
-        <v-card width="1080">
-          <v-carousel>
-            <v-carousel-item
-              v-for="(item,i) in items"
-              :key="i"
-              :src="item.src"
-            >
-            </v-carousel-item>
-          </v-carousel>
-        </v-card>
-      </v-col>
-    </v-row>
-
-  </v-container> -->
 
 <div>
 
-  <h1 class="text-center">
-          Liste BDA Centrale Lille 2022 - 2023
-  </h1>
+  <v-card
+    class="mx-auto"
+    style="background: #FEEDCF;">
+    <h1 class="text-center text-md-h2 text-h5">
+            Liste BDA Centrale Lille 2022 - 2023
+    </h1>
+  </v-card>
 
 
 
@@ -120,31 +23,6 @@
     </v-img>
   </div>
 
-  <!-- <div class="lisette">
-    <v-img
-          style="
-            position: absolute;
-          "
-          max-width="20vw"
-          max-height="20vh"
-          contain
-          src="/Lisette.png"
-          >
-    </v-img>
-    <p>
-      Scroll Down!
-    </p>
-  </div> -->
-
-  <!-- 
-    <v-btn elevation="2"
-                x-large
-                style="background: #EAB824;
-                      color: black;
-                      font-family: 'Comfortaa', cursive;
-                      allign: center;">
-            Continue
-    </v-btn> -->
   <div class="container">
 
     <iframe class="forVideo" width="1080" height="720" src="https://www.youtube.com/embed/LNIPk4fMsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
@@ -184,6 +62,10 @@
   
 }
 
+.text-md-h2, .text-h4{
+    font-family: 'Comfortaa', cursive;
+
+}
 .containerAnimate{
   height: 60vh;
   position: relative;
@@ -221,6 +103,7 @@ h1 {
   text-decoration: none;
   font-size: 400%;
   margin-bottom: 2%;
+  margin-left: 1%;
   
 }
 

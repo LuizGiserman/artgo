@@ -53,6 +53,7 @@ export default {
       dark: true,
       themes: {
         dark: {
+          // bab3a2
           background: '#bab3a2',
           primary: '#4caf50',
           secondary: '#ff8c00',

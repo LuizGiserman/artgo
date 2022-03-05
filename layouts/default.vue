@@ -179,6 +179,11 @@ p { display: block;}
 
 }
 
+#app {
+  background: url('/fond.png')
+    no-repeat center center fixed !important;
+  background-size: cover;
+}
 
 
 .myLinkLogo{
