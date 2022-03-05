@@ -6,9 +6,7 @@
         style="background: #EAB824"
     >
         <v-img
-        src="/Luiz.jpeg"
-        height="35vh"
-        width="26.25vw"
+        :src="src"
         ></v-img>
 
         <v-card-title style="color: black;

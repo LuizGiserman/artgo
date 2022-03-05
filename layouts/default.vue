@@ -110,13 +110,13 @@
             Partenaires
         </router-link>
           <v-spacer />
-        <router-link to=/contact style=" color: black;
+        <router-link to=/jeu-de-piste style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
                                         vertical-align: middle;
                                       ">
-            Contact
+            Jeu de Piste
         </router-link>
           <v-spacer />
       </template>

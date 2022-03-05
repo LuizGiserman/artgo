@@ -14,11 +14,25 @@
     "_name": "_78211cf4"
   },
   {
+    "name": "jeu-de-piste",
+    "path": "/jeu-de-piste",
+    "component": "/home/luizgis/Documents/artgo/pages/jeu-de-piste.vue",
+    "chunkName": "pages/jeu-de-piste",
+    "_name": "_2f4be982"
+  },
+  {
     "name": "partenaires",
     "path": "/partenaires",
     "component": "/home/luizgis/Documents/artgo/pages/partenaires.vue",
     "chunkName": "pages/partenaires",
     "_name": "_4448f702"
+  },
+  {
+    "name": "programme",
+    "path": "/programme",
+    "component": "/home/luizgis/Documents/artgo/pages/programme.vue",
+    "chunkName": "pages/programme",
+    "_name": "_11ec9d82"
   },
   {
     "name": "trombi",

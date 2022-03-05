@@ -6,7 +6,9 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _267bfaf9 = () => interopDefault(import('../pages/agenda.vue' /* webpackChunkName: "pages/agenda" */))
 const _78211cf4 = () => interopDefault(import('../pages/events.vue' /* webpackChunkName: "pages/events" */))
+const _2f4be982 = () => interopDefault(import('../pages/jeu-de-piste.vue' /* webpackChunkName: "pages/jeu-de-piste" */))
 const _4448f702 = () => interopDefault(import('../pages/partenaires.vue' /* webpackChunkName: "pages/partenaires" */))
+const _11ec9d82 = () => interopDefault(import('../pages/programme.vue' /* webpackChunkName: "pages/programme" */))
 const _7dccb590 = () => interopDefault(import('../pages/trombi.vue' /* webpackChunkName: "pages/trombi" */))
 const _fcc41d16 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -30,9 +32,17 @@ export const routerOptions = {
     component: _78211cf4,
     name: "events"
   }, {
+    path: "/jeu-de-piste",
+    component: _2f4be982,
+    name: "jeu-de-piste"
+  }, {
     path: "/partenaires",
     component: _4448f702,
     name: "partenaires"
+  }, {
+    path: "/programme",
+    component: _11ec9d82,
+    name: "programme"
   }, {
     path: "/trombi",
     component: _7dccb590,

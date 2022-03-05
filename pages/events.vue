@@ -2,7 +2,10 @@
 <div>
 
   <h1 class="text-center">
-    Retrouve notre planning d’events de la semaine !! On t’attend avec impatience !!
+    Retrouve notre planning d’events de la semaine !
+  </h1>
+  <h1 class="text-center">
+    On t’attend avec impatience !
   </h1>
 
 
@@ -12,8 +15,7 @@
           style="
             position: absolute;
           "
-          contain
-          src="/prato.jpg"
+          src="/planning.png"
           >
     </v-img>
   </div>
@@ -42,7 +44,7 @@ h1 {
 }
 
 .containerAnimate{
-  height: 60vh;
+  height: 80vh;
   position: relative;
   overflow: hidden; 
   display: flex;

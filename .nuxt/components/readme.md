@@ -11,3 +11,4 @@ You can directly use them in pages and other components without the need to impo
 - `<Person>` | `<person>` (components/Person.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
 - `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
+- `<Program>` | `<program>` (components/program.vue)

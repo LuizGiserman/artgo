@@ -115,10 +115,26 @@
             position: absolute;
           "
           contain
-          src="/prato.jpg"
+          src="/equipe.jpg"
           >
     </v-img>
   </div>
+
+  <!-- <div class="lisette">
+    <v-img
+          style="
+            position: absolute;
+          "
+          max-width="20vw"
+          max-height="20vh"
+          contain
+          src="/Lisette.png"
+          >
+    </v-img>
+    <p>
+      Scroll Down!
+    </p>
+  </div> -->
 
   <!-- 
     <v-btn elevation="2"
@@ -134,8 +150,8 @@
     <iframe class="forVideo" width="1080" height="720" src="https://www.youtube.com/embed/LNIPk4fMsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
 
   </div>
-<!-- 
-  <div class="container">
+
+  <div class="containerCarouseel">
     <v-card >
           <v-carousel>
             <v-carousel-item
@@ -147,7 +163,7 @@
           </v-carousel>
         </v-card>
 
-  </div> -->
+  </div>
 
 
 </div>
@@ -181,6 +197,21 @@
   overflow: hidden; 
   display: flex;
   margin-bottom: 20%;
+}
+
+.containerCarouseel{
+  height: 52vh;
+  position: relative;
+  overflow: hidden; 
+  display: flex;
+}
+
+.lisette{
+  height: 60vh;
+  position: relative;
+  overflow: hidden; 
+  display: flex;
+  margin-bottom: 2%;
 }
 
 h1 {
@@ -230,16 +261,16 @@ export default {
       return {
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: '/amelie_art.JPG',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: '/benji_art.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: '/jean_art.jpeg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: '/jing_art.jpg',
           },
         ],
       }
