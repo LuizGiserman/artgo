@@ -4,6 +4,9 @@
             class="mx-auto"
             style="background: #754115;"
     >
+    <v-card-title class="justify-center text-sm-h4 text-md-h5">
+        {{ title }}
+    </v-card-title>    
 
     <div style="background-color: #ece5cd;">
         <v-card-text>
@@ -23,9 +26,6 @@
         </v-card-text>
     </div>
 
-    <v-card-title class="justify-center text-sm-h4 text-md-h5">
-        {{ title }}
-    </v-card-title>    
 
     </v-card>
 </template>
