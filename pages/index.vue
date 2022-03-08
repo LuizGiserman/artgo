@@ -43,19 +43,20 @@
     </h1>
   </v-card>
 
-  <div class="containerCarouseel">
+  <div style="height: 65vh;">
     <v-card >
           <v-carousel>
             <v-carousel-item
               v-for="(item,i) in items"
               :key="i"
               :src="item.src"
+              contain
             >
             </v-carousel-item>
           </v-carousel>
-        </v-card>
-
+    </v-card>
   </div>
+
 
 
 </div>
@@ -159,19 +160,31 @@ export default {
       return {
         items: [
           {
-            src: '/amelie_art.JPG',
-          },
-          {
             src: '/maelys_art.jpg'
           },
           {
             src: '/benji_art.jpg',
           },
           {
-            src: '/jean_art.jpeg',
+            src: '/romain_art.jpg'
+          },
+          {
+            src: '/amelie_art.JPG',
+          },
+          {
+            src: '/max_art.jpeg',
           },
           {
             src: '/jing_art.jpg',
+          },
+          {
+            src: '/baptiste_art.jpg',
+          },
+          {
+            src: '/jean_art.jpeg',
+          },
+          {
+            src: '/maud_art.png',
           },
         ],
       }
