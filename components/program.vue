@@ -9,9 +9,14 @@
         <v-card-text>
             <ul>
                 <li v-for="item in items"
-                    :key="item"
+                    :key="item[0]"
                     class="text-md-body-1 text-sm-body-1">
-                    {{ item }}
+                    <span v-if="isCarnaval && item[12] == ' '">
+                        {{ item.split('carnaval')[0] }} <a href="https://jeu-de-piste-des-artgonautes.netlify.app/">carnaval</a> {{ item.split('carnaval')[1] }} 
+                    </span>
+                    <span v-else>
+                        {{ item }}
+                    </span>
                 </li>
             </ul>
 
@@ -64,5 +69,13 @@ export default {
                 default: "40%"
             }
         },
+
+    computed: {
+
+        isCarnaval: function () {
+            return(this.title == "Nouveaux événements");
+        }
+        
+    }
 }
 </script>

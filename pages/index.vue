@@ -5,14 +5,14 @@
   <v-card
     class="mx-auto"
     style="background: #FEEDCF;">
-    <h1 class="text-center text-md-h2 text-h5">
+    <h1 class="text-center text-md-h2 text-h6">
             Liste BDA Centrale Lille 2022 - 2023
     </h1>
   </v-card>
 
 
 
-  <div class="containerAnimate">
+  <div class="containerAnimate mx-n3 mx-lg-auto" :style=imageHeight>
     <v-img
           style="
             position: absolute;
@@ -23,11 +23,25 @@
     </v-img>
   </div>
 
+  <v-card
+    class="mx-auto"
+    style="background: #FEEDCF;">
+    <h1 class="text-center text-md-h2 text-h6">
+            Film de Liste
+    </h1>
+  </v-card>
+
   <div class="container">
-
-    <iframe class="forVideo" width="1080" height="720" src="https://www.youtube.com/embed/LNIPk4fMsl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
-
+    <iframe :width="videoSettings.width" :height="videoSettings.height" src="https://www.youtube.com/embed/7tkZ_uaKazs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+
+  <v-card
+    class="mx-auto"
+    style="background: #FEEDCF;">
+    <h1 class="text-center text-md-h2 text-h6">
+            L'art d'après nos artistes
+    </h1>
+  </v-card>
 
   <div class="containerCarouseel">
     <v-card >
@@ -74,7 +88,6 @@
   margin-bottom: 20%;
 }
 .container{
-  height: 60vh;
   position: relative;
   overflow: hidden; 
   display: flex;
@@ -121,7 +134,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 export default {
     mounted: function (){
-      this.startAnimations()
+      if (this.imageHeight == ""){
+        this.startAnimations()
+      }
     },
     methods:{
       startAnimations: function(){
@@ -147,6 +162,9 @@ export default {
             src: '/amelie_art.JPG',
           },
           {
+            src: '/maelys_art.jpg'
+          },
+          {
             src: '/benji_art.jpg',
           },
           {
@@ -158,5 +176,27 @@ export default {
         ],
       }
     },
+    computed: {
+      imageHeight () {
+        switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return "min-width: 100vw;  height:25vh;"
+          case 'sm': return "min-width: 100vw;  height:25vh;"
+          case 'md': return ""
+          case 'lg': return ""
+          case 'xl': return ""
+        }
+      },
+      videoSettings () {
+        let width, height
+          switch (this.$vuetify.breakpoint.name) {
+          case 'xs': width = 560;  height = 315; break;
+          case 'sm': width = 560;  height = 315; break;
+          case 'md': width = 1300; height = 731.25; break;
+          case 'lg': width = 1300; height = 731.25; break;
+          case 'xl': width = 1300; height = 731.25; break;
+      }
+          return {'width': width, 'height': height}
+    },
   }
+}
 </script>

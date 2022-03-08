@@ -7,6 +7,7 @@
       fixed
       app
       height="100vh"
+      width="55%"
       color="#ce9c38"
     >
       <v-list>
@@ -52,7 +53,9 @@
       >
         <v-icon>mdi-minus</v-icon>
       </v-btn> -->
-      <v-spacer />
+      <v-spacer v-if="$vuetify.breakpoint.name != 'xs' 
+                    ||$vuetify.breakpoint.name != 'sm' ">
+      </v-spacer>
 
         <router-link to=/>
           <v-img
@@ -65,7 +68,7 @@
         </router-link>
 
 
-        <p class="myLinkLogo">
+        <p class="myLinkLogo" :style="titleFontSize">
             Art'gonautes
         </p>
         <!-- <p class="slogan">
@@ -168,7 +171,9 @@ nav myLink.hover{
   text-decoration: underline;
 }
 
-p { display: block;}
+p { display: block;
+    font-family: 'bdaargos';
+}
 
 .myLink{
     color: black;
@@ -190,7 +195,6 @@ p { display: block;}
     color: black;
     font-family: 'bdaargos';
     text-decoration: none;
-    font-size: 300%;
     margin-left: 1%;
     vertical-align: center;
 }
@@ -208,6 +212,17 @@ p { display: block;}
 
 <script>
 export default {
+  computed: {
+    titleFontSize () {
+      switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return "font-size: 250%"
+          case 'sm': return "font-size: 250%"
+          case 'md': return "font-size: 300%"
+          case 'lg': return "font-size: 300%"
+          case 'xl': return "font-size: 300%"
+        }
+    }
+  },
   data () {
     return {
       clipped: true,
@@ -216,7 +231,7 @@ export default {
       items: [
         {
           icon: 'mdi-apps',
-          title: 'Bienvenue',
+          title: 'Home',
           to: '/'
         },
         {
@@ -228,6 +243,21 @@ export default {
           icon: 'mdi-account-multiple',
           title: 'Trombi',
           to: '/trombi'
+        },
+        {
+          icon: 'mdi-presentation',
+          title: 'Programme',
+          to: '/programme'
+        },
+        {
+          icon: 'mdi-contacts',
+          title: 'Partenaires',
+          to: '/partenaires'
+        },
+        {
+          icon: 'mdi-puzzle',
+          title: 'Jeu de Piste',
+          to: '/jeu-de-piste'
         }
       ],
       miniVariant: false,
