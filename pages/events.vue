@@ -46,7 +46,7 @@ h1 {
 }
 
 .containerAnimate{
-  height: 70vh;
+  height: 68vh;
   position: relative;
   overflow: hidden; 
   display: flex;
