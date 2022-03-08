@@ -8,7 +8,4 @@ You can directly use them in pages and other components without the need to impo
 
 - `<FlipBox>` | `<flip-box>` (components/FlipBox.vue)
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
-- `<Person>` | `<person>` (components/Person.vue)
-- `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
-- `<VuetifyLogo>` | `<vuetify-logo>` (components/VuetifyLogo.vue)
 - `<Program>` | `<program>` (components/program.vue)
