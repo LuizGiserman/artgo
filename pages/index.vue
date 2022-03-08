@@ -32,7 +32,7 @@
   </v-card>
 
   <div class="container">
-    <iframe :width="videoSettings.width" :height="videoSettings.height" src="https://www.youtube.com/embed/7tkZ_uaKazs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe :width="videoSettings.width" :height="videoSettings.height" src="https://www.youtube.com/embed/Xoq9LWI2A1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
   <v-card
