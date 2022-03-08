@@ -6,12 +6,12 @@
         >
           <v-col
           v-for="n in membres"
-          :key="n"
+          :key="n.src"
           cols="12"
           sm="4"
           >
 
-            <FlipBox :src=n.src :name=n.nom :phrase=n.phrase :bio=n.bio />
+            <FlipBox :src=n.src :name=n.nom :phrase=n.phrase :bio=n.bio :lazy=n.lazy />
 
           </v-col>
           
@@ -95,11 +95,13 @@ Amoureuse catégorique de la langue française, vous ne la surclasserez ni en cu
 
       let persons = [];
       let tempSrc;
+      let tempLazySrc;
       let numPhotos = this.prenomSrc.length;
 
       for (let i = 0; i < numPhotos; i++){
         tempSrc = "/PP_" + this.prenomSrc[i] + ".png";
-        persons.push({'src': tempSrc, 'nom': this.noms[i], 'phrase': this.phrases[i], 'bio': this.bios[i]})
+        tempLazySrc = "/compressed/PP_" + this.prenomSrc[i] + "-min.png"
+        persons.push({'src': tempSrc, 'lazy': tempLazySrc ,'nom': this.noms[i], 'phrase': this.phrases[i], 'bio': this.bios[i]})
       }
 
       return persons;

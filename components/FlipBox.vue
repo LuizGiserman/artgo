@@ -6,6 +6,7 @@
         style="background: #EAB824"
     >
         <v-img
+        :lazy-src="lazy"
         :src="src"
         ></v-img>
 
@@ -57,9 +58,6 @@
         </div>
         </v-expand-transition>
     </v-card>
-    <vspacer/>
-    <vspacer/>
-
   </div>
 </template>
 
@@ -84,6 +82,10 @@
         bio: {
             type: String,
             default: "Luiz est une persone"
+        },  
+        lazy: {
+            type: String,
+            default: "/Luiz.jpeg"
         }  
     },
   }
