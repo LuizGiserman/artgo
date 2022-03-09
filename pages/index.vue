@@ -6,7 +6,7 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h2 text-h6">
-          {{ $t('titlePhotoEquipe') }}
+          {{ $t('titlePhotoEquipe') }} {{ $vuetify.breakpoint.name }}
     </h1>
   </v-card>
 
@@ -193,10 +193,10 @@ export default {
       imageHeight () {
         switch (this.$vuetify.breakpoint.name) {
           case 'xs': return "min-width: 100vw;  height:25vh;"
-          case 'sm': return "min-width: 100vw;  height:25vh;"
-          case 'md': return ""
-          case 'lg': return ""
-          case 'xl': return ""
+          case 'sm': return "min-width: 100vw;  height:45vh;"
+          case 'md': return "height: 75vh;"
+          case 'lg': return "height: 75vh;"
+          case 'xl': return "height: 75vh;"
         }
       },
       videoSettings () {

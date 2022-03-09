@@ -12,7 +12,7 @@
   </v-card>
 
 
-  <div class="containerAnimate">
+  <div class="containerAnimate" :style="imageHeight">
     <v-img
           style="
             position: absolute;
@@ -31,7 +31,17 @@
 <script>
 
 export default ({
-  
+  computed: {
+      imageHeight () {
+        switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return "height:68vh;"
+          case 'sm': return "height:68vh;"
+          case 'md': return "height:75vh"
+          case 'lg': return "height:75vh"
+          case 'xl': return "height:75vh"
+        }
+      }
+  }
 })
 </script>
 
@@ -46,7 +56,6 @@ h1 {
 }
 
 .containerAnimate{
-  height: 68vh;
   position: relative;
   overflow: hidden; 
   display: flex;
