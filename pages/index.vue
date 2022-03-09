@@ -6,7 +6,7 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h2 text-h6">
-          {{ $t('titlePhotoEquipe') }} {{ $vuetify.breakpoint.name }}
+          {{ $t('titlePhotoEquipe') }}
     </h1>
   </v-card>
 

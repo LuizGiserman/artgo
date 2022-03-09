@@ -14,7 +14,7 @@
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
-          :to="item.to"
+          :to="localePath(item.to)"
           router
           exact
         >
@@ -286,27 +286,27 @@ export default {
         {
           icon: 'mdi-calendar',
           title: 'Events',
-          to: "localePath('events')"
+          to: 'events'
         },
         {
           icon: 'mdi-account-multiple',
           title: 'Trombi',
-          to: "localePath('trombi')"
+          to: 'trombi'
         },
         {
           icon: 'mdi-presentation',
           title: 'Programme',
-          to: "localePath('programme')"
+          to: 'programme'
         },
         {
           icon: 'mdi-contacts',
           title: 'Partenaires',
-          to: "localePath('partenaires')"
+          to: 'partenaires'
         },
         {
           icon: 'mdi-puzzle',
           title: 'Jeu de Piste',
-          to: "localePath('jeu-de-piste')"
+          to: 'jeu-de-piste'
         }
       ],
       miniVariant: false,
