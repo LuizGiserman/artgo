@@ -36,9 +36,9 @@ export default ({
         switch (this.$vuetify.breakpoint.name) {
           case 'xs': return "height:68vh;"
           case 'sm': return "height:68vh;"
-          case 'md': return "height:75vh"
-          case 'lg': return "height:75vh"
-          case 'xl': return "height:75vh"
+          case 'md': return "height:80vh"
+          case 'lg': return "height:80vh"
+          case 'xl': return "height:80vh"
         }
       }
   }
