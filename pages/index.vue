@@ -6,7 +6,7 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h2 text-h6">
-            Liste BDA Centrale Lille 2022 - 2023
+          {{ $t('titlePhotoEquipe') }}
     </h1>
   </v-card>
 
@@ -27,7 +27,7 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h2 text-h6">
-            Film de Liste
+        {{ $t('titleFilm') }}
     </h1>
   </v-card>
 
@@ -39,7 +39,7 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h2 text-h6">
-            L'art d'après nos artistes
+            {{ $t('titleCaroussel') }}
     </h1>
   </v-card>
 
@@ -136,7 +136,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 export default {
     mounted: function (){
       if (this.imageHeight == ""){
-        this.startAnimations()
+        this.startAnimations();
       }
     },
     methods:{

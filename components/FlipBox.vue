@@ -32,7 +32,7 @@
             style="font-family: 'Comfortaa', cursive;"
             @click="show = !show"
         >
-            Afficher Bio
+            {{ $t('button') }}
         </v-btn>
 
         <v-spacer></v-spacer>

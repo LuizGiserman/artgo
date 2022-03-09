@@ -1,12 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
-
+import i18n from './plugins/i18n'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: 'Artgonautes',
     title: 'Artgonautes',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'fr'
     },
     meta: [
       { charset: 'utf-8' },
@@ -36,7 +36,26 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-  ],
+
+    [
+      'nuxt-i18n',
+      {
+        vueI18nLoader: true,
+        defaultLocale: 'fr',
+         locales: [
+           {
+             code: 'fr',
+             name: 'Français'
+            },
+            {
+               code: 'en',
+               name: 'English'
+            }
+        ],
+        vueI18n: i18n
+      }
+     ]
+    ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

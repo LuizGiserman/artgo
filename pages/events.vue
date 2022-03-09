@@ -4,10 +4,10 @@
     class="mx-auto"
     style="background: #FEEDCF;">
     <h1 class="text-center text-md-h4 text-h5">
-      Retrouve notre planning d’events de la semaine !
+      {{ $t('titleEvents1') }}
     </h1>
     <h1 class="text-center text-md-h4 text-h5">
-      On t’attend avec impatience !
+      {{ $t('titleEvents2') }}
     </h1>
   </v-card>
 

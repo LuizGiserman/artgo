@@ -61,8 +61,8 @@
           <v-img
             contain
             src=/artifices_horloge_jaune.png
-            max-height="90"
-            max-width="90"
+            :max-height="logoSize"
+            :max-width="logoSize"
             vertical-align="middle"
           ></v-img>
         </router-link>
@@ -77,7 +77,7 @@
       <v-spacer />
 
       <template v-if="!$vuetify.breakpoint.mobile">
-        <router-link to=/events style=" color: black;
+        <router-link :to="localePath('events')" style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
@@ -86,43 +86,60 @@
             Events
         </router-link>
           <v-spacer />
-        <router-link to=/trombi style=" color: black;
+        <router-link :to="localePath('trombi')" style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
                                         vertical-align: middle;
                                       ">
-            Trombi
+            {{ $t('trombi') }}
         </router-link>
           <v-spacer />
-        <router-link to=/programme style=" color: black;
+        <router-link :to="localePath('programme')" style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
                                         vertical-align: middle;
                                       ">
-            Programme
+            {{ $t('Programme') }}
         </router-link>
           <v-spacer />
-        <router-link to=/partenaires style=" color: black;
+        <router-link :to="localePath('partenaires')" style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
                                         vertical-align: middle;
                                       ">
-            Partenaires
+            {{ $t('Partenaires') }}
         </router-link>
           <v-spacer />
-        <router-link to=/jeu-de-piste style=" color: black;
+        <router-link :to="localePath('jeu-de-piste')" style=" color: black;
                                         font-family: 'Comfortaa', cursive;
                                         text-decoration: none;
                                         font-size: larger;
                                         vertical-align: middle;
                                       ">
-            Jeu de Piste
+            {{ $t('Jeu de Piste') }}
         </router-link>
-          <v-spacer />
       </template>
+          <v-spacer />
+          
+          <!-- <v-icon style="color: black; margin-right: 1%">
+            mdi-arrow-down
+          </v-icon> -->
+          <v-select
+          v-model="$i18n.locale"
+          :items="languages"
+          :label="$i18n.locale.code"
+          return-object
+          single-line
+          dense
+          outlined
+          :style="styleSelect"
+          class="ml-2 mt-3 mt-md-6"
+          ></v-select>
+
+          <v-spacer/>
       <!-- <v-btn
         icon
         @click.stop="rightDrawer = !rightDrawer"
@@ -165,7 +182,11 @@
 
 <style scoped>
 
-
+.v-select__selection,
+.v-select__selection--comma,
+.v-select.v-text-field input {
+  color: black !important;
+}
 
 nav myLink.hover{
   text-decoration: underline;
@@ -213,14 +234,42 @@ p { display: block;
 <script>
 export default {
   computed: {
+    styleSelect (){
+      switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return "width: 22%";
+          case 'sm': return "width: 22%";
+          case 'md': return "width: 3%";
+          case 'lg': return "width: 3%";
+          case 'xl': return "width: 3%";
+        }
+
+    },
+    logoSize() {
+      switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return 70;
+          case 'sm': return 70;
+          case 'md': return 90;
+          case 'lg': return 90;
+          case 'xl': return 90;
+        }
+    },
     titleFontSize () {
       switch (this.$vuetify.breakpoint.name) {
-          case 'xs': return "font-size: 250%"
-          case 'sm': return "font-size: 250%"
+          case 'xs': return "font-size: 200%"
+          case 'sm': return "font-size: 200%"
           case 'md': return "font-size: 300%"
           case 'lg': return "font-size: 300%"
           case 'xl': return "font-size: 300%"
         }
+    },
+    languages () {
+      let size = this.$i18n.locales.length;
+      let langs = [];
+      for (let i= 0; i < size; i++){
+        langs.push(this.$i18n.locales[i].code)
+      }
+
+      return langs;
     }
   },
   data () {
@@ -237,27 +286,27 @@ export default {
         {
           icon: 'mdi-calendar',
           title: 'Events',
-          to: '/events'
+          to: "localePath('events')"
         },
         {
           icon: 'mdi-account-multiple',
           title: 'Trombi',
-          to: '/trombi'
+          to: "localePath('trombi')"
         },
         {
           icon: 'mdi-presentation',
           title: 'Programme',
-          to: '/programme'
+          to: "localePath('programme')"
         },
         {
           icon: 'mdi-contacts',
           title: 'Partenaires',
-          to: '/partenaires'
+          to: "localePath('partenaires')"
         },
         {
           icon: 'mdi-puzzle',
           title: 'Jeu de Piste',
-          to: '/jeu-de-piste'
+          to: "localePath('jeu-de-piste')"
         }
       ],
       miniVariant: false,
