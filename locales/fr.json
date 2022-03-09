@@ -54,6 +54,36 @@
     "bioGuyon": "Inarrêtable, Thomas est un joyeux luron qui n’hésite pas à se mettre dans d’étranges situations pour ses courts-métrages. Ajoutez à cela quelques gouttes (comprendre “litres”) d’alcool, et vous êtes partis pour plus d’un fou rire. Aussi à l’aise avec une bière qu’avec une caméra à la main, il possède également une surprenante tendance à s’aligner sur le repère orthonormé, avec une nette préférence pour l’axe des abscisses. Si vous deviez ne retenir qu’une phrase résumant son investissement irréprochable dans chaque tâche qu’il entreprend ce serait : “Le CLAP staffe SOBRE !” (ce qu'il respecte évidemment)",
     "bioLuiz": "De sang brésilien, Luiz a dû troquer le soleil de Rio pour celui de Lille (qui a dit qu'... bref). Amateur de bonne musique, il met à profit son sens du rythme pour nous interpréter à la perfection le thème de la wii (en boucle). Informateur impassible, ses conseils peuvent se révéler indispensables comme lorsqu’il propose de recruter un bébé pour rentrer dans un costume de chouette. Amoureux de son lit, se séparera-t-il un jour de son oreiller ? Jamais !",
     "bioEva": "Si elle supporte sans aucun mal la nourriture fortement épicée, Eva n’est au fond que douceur et tendresse pour son entourage. Discrètement munie de son appareil photo, elle sait capturer les meilleurs dossiers de ses camarades listeux, alimentant ainsi notre drive “Team building Lolilol” de ses plus belles pièces. Sa deuxième corde artistique appartient au domaine musical : ses goûts prononcés (en particulier en ce qui concerne Jay Chou) et son originalité sont deux ingrédients clés pour une soirée réussie. Si elle peut surprendre en  s’investissant en torcho, Eva sait avant tout garder son sang froid et demeurer impassible devant l’épreuve “vivre au-dessus du DF”.",
-    "bioSirine": "Sirine est une rose. De ses (futures) racines italiennes, à ses piques, plus acérés les uns que les autres.\nProfessionnelle du tacle sur et en dehors du terrain, elle tire plus vite que son ombre vers le but (même en défense) et sur ses prochains. Si elle a fait éclore l’idée du trombinodoss, c'est aussi par son humour (quelquefois) graveleux qu’elle se démarque.\nAmoureuse catégorique de la langue française, vous ne la surclasserez ni en culture littéraire, ni en rédaction et encore moins à la dictée."
+    "bioSirine": "Sirine est une rose. De ses (futures) racines italiennes, à ses piques, plus acérés les uns que les autres.\nProfessionnelle du tacle sur et en dehors du terrain, elle tire plus vite que son ombre vers le but (même en défense) et sur ses prochains. Si elle a fait éclore l’idée du trombinodoss, c'est aussi par son humour (quelquefois) graveleux qu’elle se démarque.\nAmoureuse catégorique de la langue française, vous ne la surclasserez ni en culture littéraire, ni en rédaction et encore moins à la dictée.",
 
+    "integration": "Intégration",
+    "topicInte1": "Continuer sur les acquis des Puls’art dans l’intégration des internationaux (traduction des posts et site internet en anglais notamment).",
+    "topicInte2": "Favoriser la diversité des cultures musicales dans nos événements (musiques d’ambiance) en partenariat avec le Club Time.",
+    "topicInte3": "Communiquer avec l’ENSCL et son BDA pour concrétiser la fusion de la vie associative artistique.",
+    "topicInte4": "Organiser un concours pour refaire le design du T-shirt donné par Centrale le premier jour de l’intégration.",
+    "topicInte5": "Refaire des chants de promo centraliens en collaboration avec le BDS et CLIC, pour pouvoir défendre correctement et respectueusement Centrale face aux autres écoles lors des tournois sportifs notamment.",
+
+    "ameliorations": "Améliorations",
+    "topicAme1": "Élargir TDN au maximum aux autres écoles de la métropole lilloise et du Nord, en faisant davantage de communication, notamment auprès des écoles qui participaient à l’événement avant le covid.",
+    "topicAme2": "Augmenter la communication sur les Icares afin de représenter fièrement notre école face aux autres Centrales.",
+    "topicAme3": "Repenser le format de la newsletter pour la rendre plus accessible et attractive : la faire sous forme de podcasts ou de petites vidéos.",
+    "topicAme4": "Revaloriser le groupe sorties du BDA, et publier chaque mois sur promo le planning des événements artistiques des assos de centrale.",
+
+    "nouveaux-evenements": "Nouveaux événements",
+    "topicNE1": "Organiser un carnaval à la Rez, en partenariat avec les autres BDX.",
+    "topicNE2": "Faire renaître le festival de théâtre étudiant Paon d’Art, perdu depuis 2019 à cause du Covid. Ce festival regroupant plusieurs associations d’écoles de la métropole lilloise proposait des représentations de théâtre, improvisation, comédie musicale ou encore de danse.",
+    "topicNE3": "Organiser une exposition Centralienne afin de mettre en valeur les diverses productions artistiques des étudiants ; ceux qui le souhaitent pourront également participer à un concours à thème d’une durée d’une semaine.",
+
+    "autres-evenements": "Autres événements",
+    "topicAE1": "Poursuivre sur les acquis de nos aînés : sorties culturelles & bons plans sur Lille, renouvellement des anciens événements (TDN, ICares, GOSt, sortie inter à Paris, Rallille, Fête de la musique avec les profs et alumnis).",
+    "topicAE2": "Élever le nombre de GOSt à 3 pour permettre à davantage de gens de se produire, voire même en réserver un aux performances musicales pour libérer du temps et prolonger les performances. En effet le nombre de musiciens à l’école souhaitant s’exprimer est conséquent et le planning des GOSt est déjà très chargé. Tous n’ont donc pas l’occasion de se produire pour le moment.",
+
+    "divers": "Divers",
+    "topicDivers1": "Limiter notre production de déchets et notre impact écologique lors de nos événements (surtout au niveau de la nourriture), et suivre nos progrès à l’aide de bilans carbones réguliers. ",
+    "topicDivers2": "Promouvoir l’utilisation de la bibli autrement que comme un local associatif, en organisant régulièrement des évènements culturels divers et variés dans un cadre plus calme que des soirées 20h-00h : soirées karaokés / petites expositions / braderie de livres…",
+    "topicDivers3": "Aider à la gestion administrative des événements des associations artistiques et culturelles de l’école à leur demande, et leur apporter au besoin un soutien financier.",
+
+    "culture-general": "Développer la culture générale",
+    "topicCulture1": "Instaurer une habitude de publications 2 fois par semaine du BDA sur Centrash et notre page insta, de petites infos de culture G random.",
+    "topicCulture2": "Soirée Questions pour un Centralien, 20h-00h au foyer, afin de développer la culture G à Centrale, avec évidemment prix à la clé."
 }

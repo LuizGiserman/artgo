@@ -3,98 +3,84 @@
     "name": "agenda___fr",
     "path": "/agenda",
     "component": "/home/luizgis/Documents/artgo/pages/agenda.vue",
-    "chunkName": "pages/agenda",
-    "_name": "_267bfaf9"
+    "chunkName": "pages/agenda"
   },
   {
     "name": "index___en",
     "path": "/en",
     "component": "/home/luizgis/Documents/artgo/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_fcc41d16"
+    "chunkName": "pages/index"
   },
   {
     "name": "events___fr",
     "path": "/events",
     "component": "/home/luizgis/Documents/artgo/pages/events.vue",
-    "chunkName": "pages/events",
-    "_name": "_78211cf4"
+    "chunkName": "pages/events"
   },
   {
     "name": "jeu-de-piste___fr",
     "path": "/jeu-de-piste",
     "component": "/home/luizgis/Documents/artgo/pages/jeu-de-piste.vue",
-    "chunkName": "pages/jeu-de-piste",
-    "_name": "_2f4be982"
+    "chunkName": "pages/jeu-de-piste"
   },
   {
     "name": "partenaires___fr",
     "path": "/partenaires",
     "component": "/home/luizgis/Documents/artgo/pages/partenaires.vue",
-    "chunkName": "pages/partenaires",
-    "_name": "_4448f702"
+    "chunkName": "pages/partenaires"
   },
   {
     "name": "programme___fr",
     "path": "/programme",
     "component": "/home/luizgis/Documents/artgo/pages/programme.vue",
-    "chunkName": "pages/programme",
-    "_name": "_11ec9d82"
+    "chunkName": "pages/programme"
   },
   {
     "name": "trombi___fr",
     "path": "/trombi",
     "component": "/home/luizgis/Documents/artgo/pages/trombi.vue",
-    "chunkName": "pages/trombi",
-    "_name": "_7dccb590"
+    "chunkName": "pages/trombi"
   },
   {
     "name": "agenda___en",
     "path": "/en/agenda",
     "component": "/home/luizgis/Documents/artgo/pages/agenda.vue",
-    "chunkName": "pages/agenda",
-    "_name": "_267bfaf9"
+    "chunkName": "pages/agenda"
   },
   {
     "name": "events___en",
     "path": "/en/events",
     "component": "/home/luizgis/Documents/artgo/pages/events.vue",
-    "chunkName": "pages/events",
-    "_name": "_78211cf4"
+    "chunkName": "pages/events"
   },
   {
     "name": "jeu-de-piste___en",
     "path": "/en/jeu-de-piste",
     "component": "/home/luizgis/Documents/artgo/pages/jeu-de-piste.vue",
-    "chunkName": "pages/jeu-de-piste",
-    "_name": "_2f4be982"
+    "chunkName": "pages/jeu-de-piste"
   },
   {
     "name": "partenaires___en",
     "path": "/en/partenaires",
     "component": "/home/luizgis/Documents/artgo/pages/partenaires.vue",
-    "chunkName": "pages/partenaires",
-    "_name": "_4448f702"
+    "chunkName": "pages/partenaires"
   },
   {
     "name": "programme___en",
     "path": "/en/programme",
     "component": "/home/luizgis/Documents/artgo/pages/programme.vue",
-    "chunkName": "pages/programme",
-    "_name": "_11ec9d82"
+    "chunkName": "pages/programme"
   },
   {
     "name": "trombi___en",
     "path": "/en/trombi",
     "component": "/home/luizgis/Documents/artgo/pages/trombi.vue",
-    "chunkName": "pages/trombi",
-    "_name": "_7dccb590"
+    "chunkName": "pages/trombi"
   },
   {
     "name": "index___fr",
     "path": "/",
     "component": "/home/luizgis/Documents/artgo/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_fcc41d16"
+    "chunkName": "pages/index"
   }
 ]

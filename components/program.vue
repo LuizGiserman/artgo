@@ -12,7 +12,7 @@
         <v-card-text>
             <ul>
                 <li v-for="item in items"
-                    :key="item[0]"
+                    :key="item"
                     class="text-md-body-1 text-sm-body-1">
                     <span v-if="isCarnaval && item[12] == ' '">
                         {{ item.split('carnaval')[0] }} <a href="https://jeu-de-piste-des-artgonautes.netlify.app/">carnaval</a> {{ item.split('carnaval')[1] }} 
@@ -55,6 +55,9 @@
 
 <script>
 export default {
+    mounted () {
+        console.log(this.items)
+    },
     props: {
             items: {
                 type: Array,
@@ -67,7 +70,7 @@ export default {
             maxwidth:{
                 type: String,
                 default: "40%"
-            }
+            },
         },
 
     computed: {
