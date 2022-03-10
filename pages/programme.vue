@@ -51,12 +51,12 @@ export default {
                                                                         this.$t("topicNE2"),
                                                                         this.$t("topicNE3"),], 'key': "NE"},
                 
-                {'titre': this.$t("autres-evenements"), 'topics':       [this.$t("topicAE1"),,
+                {'titre': this.$t("autres-evenements"), 'topics':       [this.$t("topicAE1"),
                                                                          this.$t("topicAE2"),], 'key': "AE"},
                 
                
-                {'titre': this.$t("divers"), 'topics':                   [this.$t("topicDivers1"),,
-                                                                         this.$t("topicDivers2"),,
+                {'titre': this.$t("divers"), 'topics':                   [this.$t("topicDivers1"),
+                                                                         this.$t("topicDivers2"),
                                                                          this.$t("topicDivers3"),], 'key': "divers"},
 
                 {'titre': this.$t("culture-general"), 'topics':          [this.$t("topicCulture1"),
