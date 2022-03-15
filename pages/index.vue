@@ -130,32 +130,7 @@ h1 {
 
 
 <script>
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
 export default {
-    mounted: function (){
-      if (this.imageHeight == ""){
-        this.startAnimations();
-      }
-    },
-    methods:{
-      startAnimations: function(){
-        gsap.registerPlugin(ScrollTrigger);
-
-        gsap.to(".containerAnimate", {
-          scrollTrigger: {
-            trigger: ".containerAnimate",
-            start: "-35%",
-            toggleActions: "play pause resume none",
-            scrub: 1,
-            pin: true
-          },
-          scale:1.5,
-          duration: 3
-        })
-      }
-    },
     data () {
       return {
         items: [
