@@ -20,7 +20,7 @@
       </ul>
 
       <p class="text-md-body-1 text-body-2">
-        Plusieurs informations encore à vous donner, chers détectives : contactez Jean Art'go Clément (Tur'bonheur), ou Lisette, à la moindre question. Tenez-les également informés de votre progression : si vous bloquez sur un cadenas, que vous en ouvrez un, que vous ne trouvez décidément aucune URL dans notre contenu… câlins à la clef pour chaque cadenas ouvert askip ;)
+        Plusieurs informations encore à vous donner, chers détectives : contactez Jean Art'go Clément (Tur'bonheur), ou Lisette, à la moindre question. Tenez-les également informés de votre progression : si vous bloquez sur un cadenas, que vous en ouvrez un, que vous ne trouvez décidément aucune URL dans notre contenu… câlins à la clef pour chaque cadenas ouvert askip ;) <br/> <b> Attention cependant, seules des lettres minuscules et des chiffres pourront être utilisés. NE METTEZ PAS DE SLASH ENTRE LE MOT BDA ET LA SUITE QUE VOUS AUREZ TROUVÉ </b>
       </p>
       <p class="text-md-body-1 text-body-2">
         Voilà le post Facebook de présentation du jeu de piste, pour obtenir les annexes et la grille du FINAL PASSWORD :
